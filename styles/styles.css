@@ -1,6 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    ;
+    max-width: 1600px;
 }
 
 
@@ -12,8 +12,11 @@ body {
 header {
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
-    width: 1600px;
     height: 809px;
+    background-size: cover;
+
+
+
 
 }
 
@@ -66,6 +69,8 @@ header {
 
 }
 
+.failure-pic {}
+
 .failure-title {
     color: #151414;
     font-size: 40px;
@@ -100,7 +105,7 @@ header {
 /* plans related styles */
 .plans-container {
 
-    padding: 130px 320px 0 200px;
+    padding: 130px 230px 0 230px;
     width: 1140px;
     height: 300px;
     flex-shrink: 0;
@@ -119,6 +124,7 @@ header {
     height: 92.958px;
     align-items: center;
     padding: 50px;
+    margin-bottom: 24px;
 
 }
 
@@ -127,11 +133,19 @@ header {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 0;
 
 }
 
-.plans-title-des {
+.plans-content-des {
     text-align: center;
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+
+
 }
 
 .plans-title-list {
@@ -146,4 +160,100 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* plans container 2 related style */
+
+.plans-container-2 {
+    padding: 130px 230px 0 230px;
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    border-radius: 8px;
+    background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.plans-2-title {
+    color: #FFF;
+
+    font-size: 40px;
+
+    font-weight: 700;
+    text-align: left;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+background: #FFF;
+color: #F15B22;
+width: 170.106px;
+height: 64px;
+flex-shrink: 0;
+
+}
+
+
+/* footer related styles */
+
+footer {
+    display: flex;
+    background: black;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+    
+    background-size:cover;
+    
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.contact input{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.footer-title-2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: var(--Dark-01, #151414);
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
 }
