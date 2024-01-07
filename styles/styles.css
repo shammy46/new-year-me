@@ -1,0 +1,149 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+
+
+/* header related styles */
+
+
+
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 809px;
+
+}
+
+.banner {
+    text-align: right;
+    padding: 215px 230px 180px 840px;
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.banner-info {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+/* failure related styles */
+
+.failure-container {
+    padding: 130px 320px 0 200px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.failure-info {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.failure-list {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    list-style: none;
+}
+
+.failure-list li:before {
+    content: '✓';
+    color: #16D887;
+}
+
+/* plans related styles */
+.plans-container {
+
+    padding: 130px 320px 0 200px;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+
+}
+
+.plans-title {
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plans-content-img {
+    width: 92.958px;
+    height: 92.958px;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.plans-content-title {
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.plans-title-des {
+    text-align: center;
+}
+
+.plans-title-list {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.plans-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
